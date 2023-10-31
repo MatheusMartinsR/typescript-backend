@@ -4,7 +4,10 @@
   "description": "Codes that i'm using to learn more about TSC and differents projects",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "build": "tsc",
+    "dev": "ts-node-dev --respawn src/index.ts"
   },
   "keywords": [],
   "author": "",
@@ -13,6 +16,10 @@
     "typescript": "^5.2.2"
   },
   "devDependencies": {
+    "@babel/cli": "^7.23.0",
+    "@babel/core": "^7.23.2",
+    "@babel/preset-env": "^7.23.2",
+    "@babel/preset-typescript": "^7.23.2",
     "nodemon": "^3.0.1"
   }
 }

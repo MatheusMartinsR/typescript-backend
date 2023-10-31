@@ -1,10 +1,11 @@
-const somar = (x:number,y:number) => {
-    return x + y;
-};
+import { somaDoisNumeros} from "./somador";
 
-const somar2 = (x:number, y:number, z:number) => {
-    return x + y + z;
-}
-console.log("Olá tsc");
-console.log(somar(1,2));
-console.log(somar2(1,5,6));
+let valor1: number
+let valor2:number
+
+valor1 = 5;
+valor2 = 5;
+
+const somar1 = somaDoisNumeros(valor1, valor2);
+
+console.log(somar1);
