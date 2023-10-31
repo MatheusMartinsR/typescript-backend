@@ -3,5 +3,6 @@ module.exports = {
     password: 1234,
     database: "testeSQ",
     host: "127.0.0.1",
-    dialect: "postgres"
-}
+    dialect: "postgres",
+    port: "5432",
+};
